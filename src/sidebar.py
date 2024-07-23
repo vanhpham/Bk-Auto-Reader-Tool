@@ -6,8 +6,8 @@ import time
 import can
 from findcom import findcom
 from datetime import datetime
-import pandas as pd
-import os
+import pandas as pd # type: ignore
+import os 
 import can.interfaces.slcan
 
 class MySideBar(QMainWindow, Ui_MainWindow):
